@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #c4b2b2; /* Cor de fundo do corpo */
+    color: #333;
+}
+
+header {
+    background-color: #c4b2b2; /* Cor de fundo do cabeçalho */
+    color: #000000; /* Cor do texto no cabeçalho */
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto 0;
+    padding: 20px;
+    background-color: beige; /* Cor de fundo do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-campo {
+    margin-bottom: 20px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+#error {
+    color: red; /* Cor para mensagens de erro */
+}
+
+#carousel-imagens {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#carousel-imagens img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo para entradas inválidas */
+input.invalid {
+    border: 2px solid red;
+}
+
+/* Estilo para mensagens de erro */
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
